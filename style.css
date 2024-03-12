@@ -1,0 +1,31 @@
+ /* Full credit to code.org for task */
+  body{
+    background-image: repeating-linear-gradient(forestgreen,white, green);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+  height: 1900px;
+  }
+p {
+  color: white;
+  font-size: 18px;
+  text-decoration: underline black;
+  text-align: center;
+}
+h1 {
+  color: limegreen;
+  font-family: courior, monospace;
+text-align: center;
+}
+img{
+  border: 0.5px solid whitesmoke;
+  display: none;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+

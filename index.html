@@ -1,0 +1,77 @@
+<!--Full credit to code.org for task -->
+
+<!DOCTYPE html> 
+<html> 
+ 	<head>
+  
+    <title>Animals</title>
+    <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+    <!--Fixed the name of the animal .jpgs and insterted the links to the images under the tittles, linked style sheet along with adding more css to the page.-->
+		<h1>Animals!</h1>
+<p>-click names-</p>
+    <p type="button" onclick="show()" id="ep">Elephant</p>
+    <img id="elephant"src="" class="center">
+    
+    <p type="button" onclick="hp()" id="hp">Hippo</p>
+<img id="hippo" src="" class="center">
+    
+    <p type="button" onclick="fm()" id="fm"> Flamingo </p>
+<img id="flamingo" src="" class="center">
+    
+    <p type="button" onclick="pd()" id="pd">Panda</p>
+<img src="" id="Panda"  class="center">
+    
+    <p type="button" onclick="pg()" id="pg"> Penguin</p>
+<img src="" id="Penguin" class="center">
+  
+    <script>
+      function show() {
+          let image = document.getElementById("elephant");
+          image.src = "elephant.jpg";
+          document.getElementById("ep")
+              .style.display = "elephant";
+     
+      }
+    </script>
+    <script>
+      function hp() {
+          let image = document.getElementById("hippo");
+          image.src = "hippo.jpg";
+        document.getElementById("hp")
+              .style.display = "Hippo";
+
+      }
+    </script>
+    <script>
+      function fm() {
+          let image = document.getElementById("flamingo");
+          image.src = "flamingo.jpg";
+        document.getElementById("fm")
+              .style.display = "Flamingo";
+
+      }
+    </script>
+    <script>
+      function pd() {
+          let image = document.getElementById("Panda");
+          image.src = "panda.jpg";
+        document.getElementById("pd")
+              .style.display = "panda";
+
+      }
+    </script>
+    <script>
+      function pg() {
+          let image = document.getElementById("Penguin");
+          image.src = "penguin.jpg";
+        document.getElementById("pg")
+              .style.display = "penguin";
+
+      }
+      
+    </script>
+   
+	</body>
+</html>
